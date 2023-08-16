@@ -10,15 +10,23 @@
 ## to install
 
 ```git
-$ git clone https://github.com/GokoshiJr/azatti-challenge-py.git
+git clone https://github.com/GokoshiJr/azatti-challenge-py.git
 ```
 
 ```bash
-$ cd azatti-challenge-py
+cd azatti-challenge-py
 ```
 
 ```bash
-$ pip install -r requirements.txt
+python -m venv venv
+```
+
+```bash
+venv\Scripts\activate
+```
+
+```bash
+pip install -r requirements.txt
 ```
 
 ## activate mysql service (xamp)
@@ -30,7 +38,7 @@ $ pip install -r requirements.txt
 ## create and fill .env file
 
 ```bash
-$ touch .env
+touch .env
 ```
 
 - DB_HOST=
@@ -41,5 +49,5 @@ $ touch .env
 ## run the program
 
 ```bash
-$ python main
+python main
 ```
