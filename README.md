@@ -51,3 +51,10 @@ touch .env
 ```bash
 python main
 ```
+
+## Resources
+
+- *[fillpdf](https://fillpdf.readthedocs.io/en/latest/).*
+- *[pymsql](https://github.com/PyMySQL/PyMySQL).*
+
+
